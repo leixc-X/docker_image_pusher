@@ -1,7 +1,7 @@
 #支持私库
 #nvcr.io/nvidia/tritonserver:25.06-trtllm-python-py3
 #pytorch/pytorch:2.2.0-cuda12.1-cudnn8-devel
-calico/ipam:v3.26.1
+gpustack/gpustack:latest
 
 #支持指定架构
 
