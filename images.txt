@@ -1,7 +1,4 @@
 #支持私库
-#nvcr.io/nvidia/tritonserver:25.06-trtllm-python-py3
-#pytorch/pytorch:2.2.0-cuda12.1-cudnn8-devel
-#gpustack/gpustack:latest
 vllm/vllm-openai:latest
 #支持指定架构
 
