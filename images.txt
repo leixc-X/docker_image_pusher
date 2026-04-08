@@ -1,5 +1,5 @@
 #支持私库
 
-vllm/vllm-openai:latest
+vllm/vllm-openai:gemma4
 #支持指定架构
 
