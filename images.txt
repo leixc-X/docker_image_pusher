@@ -1,6 +1,6 @@
 #支持私库
 
-#vllm/vllm-openai:latest
-vllm/vllm-openai:deepseekv4-cu130
+vllm/vllm-openai:latest
+#vllm/vllm-openai:deepseekv4-cu130
 #支持指定架构
 
