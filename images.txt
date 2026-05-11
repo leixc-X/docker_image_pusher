@@ -1,5 +1,6 @@
 #支持私库
-vllm/vllm-openai:v0.20.0
+#vllm/vllm-openai:v0.20.0
+lmsysorg/sglang:dev-cu13-nemotronh-nano-omni-reasoning-v3
 
 #vllm/vllm-openai:deepseekv4-cu130
 #支持指定架构
