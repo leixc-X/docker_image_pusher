@@ -20,7 +20,6 @@
 
 
 crpi-sc0juppayr9h4vro.cn-hangzhou.personal.cr.aliyuncs.com/hq-images/opensandbox-egress:v1.0.3
-crpi-sc0juppayr9h4vro.cn-hangzhou.personal.cr.aliyuncs.com/hq-images/opensandbox-execd:v1.0.7
 crpi-sc0juppayr9h4vro.cn-hangzhou.personal.cr.aliyuncs.com/hq-images/fastgpt-agent-sandbox:v0.1.2
 #支持指定架构
 
