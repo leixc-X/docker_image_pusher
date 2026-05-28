@@ -1,14 +1,7 @@
 #支持私库
 #vllm/vllm-openai:latest
-#lmsysorg/sglang:dev-cu13-nemotronh-nano-omni-reasoning-v3
-#gpustack/gpustack
-#calciumion/new-api:latest
-#vllm/vllm-openai:deepseekv4-cu130
-docker.io/clickhouse/clickhouse-server
-docker.io/postgres:17
-cgr.dev/chainguard/minio
-docker.io/redis:7
-docker.io/langfuse/langfuse-worker:3
-docker.io/langfuse/langfuse:3
+prom/prometheus:latest
+grafana/grafana:latest
+
 #支持指定架构
 
