@@ -5,7 +5,7 @@
 #registry.cn-hangzhou.aliyuncs.com/fastgpt/fastgpt-code-sandbox:v4.14.22
 #registry.cn-hangzhou.aliyuncs.com/fastgpt/fastgpt:v4.14.22
 #registry.cn-hangzhou.aliyuncs.com/fastgpt/fastgpt-mcp_server:v4.14.22
-#milvusdb/milvus:v2.4.3
+milvusdb/milvus:v2.4.8
 #registry.cn-hangzhou.aliyuncs.com/fastgpt/fastgpt-agent-volume-manager:v0.1.2
 #registry.cn-hangzhou.aliyuncs.com/fastgpt/opensandbox-server:v0.1.9
 #registry.cn-hangzhou.aliyuncs.com/fastgpt/pgvector:0.8.0-pg15
@@ -16,6 +16,6 @@
 #minio/minio:RELEASE.2023-03-20T20-16-18Z
 #registry.cn-hangzhou.aliyuncs.com/fastgpt/minio:RELEASE.2025-09-07T16-13-09Z
 #registry.cn-hangzhou.aliyuncs.com/fastgpt/fastgpt-plugin:v0.6.2
-registry.cn-hangzhou.aliyuncs.com/fastgpt/minio:RELEASE.2025-09-07T16-13-09Z
+#registry.cn-hangzhou.aliyuncs.com/fastgpt/minio:RELEASE.2025-09-07T16-13-09Z
 #支持指定架构
 
