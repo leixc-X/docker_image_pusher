@@ -1,11 +1,11 @@
 #支持私库
-#vllm/vllm-openai:latest
+vllm/vllm-openai:latest
 #prom/prometheus:latest
 #grafana/grafana:latest
 #registry.cn-hangzhou.aliyuncs.com/fastgpt/fastgpt-code-sandbox:v4.14.22
 #registry.cn-hangzhou.aliyuncs.com/fastgpt/fastgpt:v4.14.22
 #registry.cn-hangzhou.aliyuncs.com/fastgpt/fastgpt-mcp_server:v4.14.22
-milvusdb/milvus:v2.4.8
+#milvusdb/milvus:v2.4.8
 #registry.cn-hangzhou.aliyuncs.com/fastgpt/fastgpt-agent-volume-manager:v0.1.2
 #registry.cn-hangzhou.aliyuncs.com/fastgpt/opensandbox-server:v0.1.9
 #registry.cn-hangzhou.aliyuncs.com/fastgpt/pgvector:0.8.0-pg15
