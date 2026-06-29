@@ -1,6 +1,8 @@
 #支持私库
 #vllm/vllm-openai:latest
-vllm/vllm-openai:minimax-m3
+# vllm/vllm-openai:minimax-m3
+docker.litellm.ai/berriai/litellm:latest
+
 
 #支持指定架构
 
