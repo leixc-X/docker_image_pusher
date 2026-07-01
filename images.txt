@@ -1,8 +1,9 @@
 #支持私库
-vllm/vllm-openai:latest
+#vllm/vllm-openai:latest
 # vllm/vllm-openai:minimax-m3
 #calciumion/new-api:latest
-
+wantcat/trendradar-mcp:latest
+wantcat/trendradar:latest
 
 #支持指定架构
 
