@@ -1,7 +1,7 @@
 #支持私库
-#vllm/vllm-openai:latest
+vllm/vllm-openai:latest
 # vllm/vllm-openai:minimax-m3
-calciumion/new-api:latest
+#calciumion/new-api:latest
 
 
 #支持指定架构
