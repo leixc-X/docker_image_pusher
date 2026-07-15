@@ -1,9 +1,7 @@
 #支持私库
 #vllm/vllm-openai:latest
 # vllm/vllm-openai:minimax-m3
-#calciumion/new-api:latest
-wantcat/trendradar-mcp:latest
-wantcat/trendradar:latest
+ghcr.io/openclaw/openclaw:2026.7.2-beta.1-browser
 
 #支持指定架构
 
