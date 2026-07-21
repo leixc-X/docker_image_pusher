@@ -1,7 +1,7 @@
 #支持私库
 #vllm/vllm-openai:latest
 # vllm/vllm-openai:minimax-m3
-ghcr.io/openclaw/openclaw:2026.7.2-beta.1-browser
+calciumion/new-api:latest
 
 #支持指定架构
 
