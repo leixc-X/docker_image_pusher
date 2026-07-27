@@ -1,8 +1,8 @@
 #支持私库
-#vllm/vllm-openai:latest
+vllm/vllm-openai:latest
 # vllm/vllm-openai:minimax-m3
 #alciumion/new-api:latest
-ghcr.io/alexsjones/llmfit
+#ghcr.io/alexsjones/llmfit
 
 #支持指定架构
 
