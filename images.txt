@@ -6,5 +6,4 @@
 # ghcr.io/gethomepage/homepage:latest
 # unsloth/unsloth
 # ubuntu:24.04
-alexgshaw/adaptive-rejection-sampler:20251031
-alexgshaw/bn-fit-modify:20251031
+alexgshaw/crack-7z-hash:20251031
