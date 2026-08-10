@@ -4,6 +4,7 @@
 # alciumion/new-api:latest
 # ghcr.io/alexsjones/llmfit
 # ghcr.io/gethomepage/homepage:latest
-unsloth/unsloth
+# unsloth/unsloth
+ubuntu:24.04
 #支持指定架构
 
