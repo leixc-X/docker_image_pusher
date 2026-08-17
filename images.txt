@@ -1,9 +1,9 @@
 #支持私库
-# vllm/vllm-openai:latest
+vllm/vllm-openai:latest
 # vllm/vllm-openai:minimax-m3
 # alciumion/new-api:latest
 # ghcr.io/alexsjones/llmfit
 # ghcr.io/gethomepage/homepage:latest
 # unsloth/unsloth
 # ubuntu:24.04
-alexgshaw/crack-7z-hash:20251031
+# alexgshaw/crack-7z-hash:20251031
