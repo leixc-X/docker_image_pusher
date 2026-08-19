@@ -7,4 +7,6 @@
 # unsloth/unsloth
 # ubuntu:24.04
 # alexgshaw/crack-7z-hash:20251031
-python:3.14-slim
+# python:3.14-slim
+calciumion/new-api:latest
+
