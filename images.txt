@@ -1,5 +1,5 @@
 #支持私库
-vllm/vllm-openai:latest
+# vllm/vllm-openai:latest
 # vllm/vllm-openai:minimax-m3
 # alciumion/new-api:latest
 # ghcr.io/alexsjones/llmfit
@@ -8,5 +8,5 @@ vllm/vllm-openai:latest
 # ubuntu:24.04
 # alexgshaw/crack-7z-hash:20251031
 # python:3.14-slim
-# calciumion/new-api:latest
+calciumion/new-api:latest
 
