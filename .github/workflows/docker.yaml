@@ -10,6 +10,9 @@ env:
   ALIYUN_NAME_SPACE: "${{ secrets.ALIYUN_NAME_SPACE }}"
   ALIYUN_REGISTRY_USER: "${{ secrets.ALIYUN_REGISTRY_USER }}"
   ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
+  # 可选:配了 Docker Hub 凭据后走认证拉取,规避匿名 100次/6小时 限流(经常拉取建议配)
+  DOCKERHUB_USERNAME: "${{ secrets.DOCKERHUB_USERNAME }}"
+  DOCKERHUB_TOKEN: "${{ secrets.DOCKERHUB_TOKEN }}"
 
 jobs:
 
@@ -128,9 +131,13 @@ jobs:
             # skopeo 注册表到注册表直传,镜像不在本地完整落盘,再大也不撑爆磁盘
             # 源若是私库,加: --src-creds "用户:密码"
             # 想复制全部架构而不是单架构,把 override 换成 --all
+            src_creds=""
+            if [ -n "$DOCKERHUB_USERNAME" ] && [ -n "$DOCKERHUB_TOKEN" ]; then
+                src_creds="--src-creds=$DOCKERHUB_USERNAME:$DOCKERHUB_TOKEN"
+            fi
             echo "skopeo copy $src -> docker://$new_image ($os/$arch)"
             skopeo copy --retry-times 3 --override-os "$os" --override-arch "$arch" \
-                "$src" "docker://$new_image" \
+                $src_creds "$src" "docker://$new_image" \
                 --dest-creds "$ALIYUN_REGISTRY_USER:$ALIYUN_REGISTRY_PASSWORD"
             echo "done: $new_image"
             echo "=============================================================================="
