@@ -54,7 +54,7 @@ jobs:
       run: |
         if ! command -v skopeo; then sudo apt-get update && sudo apt-get install -y skopeo; fi
         skopeo --version
-        mkdir -p /var/lib/docker/tmp
+        sudo mkdir -p /var/lib/docker/tmp && sudo chmod 1777 /var/lib/docker/tmp
 
     - name: Copy images to Aliyun (registry-to-registry, no local pull)
       env:
