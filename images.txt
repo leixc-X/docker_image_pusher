@@ -1,6 +1,8 @@
 #支持私库
 
-vllm/vllm-openai:latest
+# vllm/vllm-openai:latest
+vllm/vllm-openai:minimax-m31-flash
+
 # vllm/vllm-openai:minimax-m3
 # alciumion/new-api:latest
 # ghcr.io/alexsjones/llmfit
