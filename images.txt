@@ -1,7 +1,7 @@
 #支持私库
 
 # vllm/vllm-openai:latest
-vllm/vllm-openai:minimax-m31-flash
+# vllm/vllm-openai:minimax-m31-flash
 # alciumion/new-api:latest
 # ghcr.io/alexsjones/llmfit
 # ghcr.io/gethomepage/homepage:latest
@@ -11,3 +11,4 @@ vllm/vllm-openai:minimax-m31-flash
 # python:3.14-slim
 # calciumion/new-api:latest
 # vllm/vllm-openai:deepseekv41-flash-0909
+samanhappy/mcphub
